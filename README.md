@@ -28,7 +28,7 @@ This project fully satisfies the requirements:
 | ✅ Conditional Routing Agent | Complete | Intelligent topic analysis and routing |
 | ✅ Two Writer Agents | Complete | Tech Writer & General Writer agents |
 | ✅ Professional LinkedIn Posts | Complete | 2-4 paragraphs, CTA, hashtags |
-| ✅ Multi-Language Support | Complete | 18+ languages with cultural adaptation |
+| ✅ Multi-Language Support | Complete | 14+ languages with cultural adaptation |
 | ✅ Conditional Handover | Complete | Tech → Tech Writer, General → General Writer |
 | ✅ Demonstration Examples | Complete | Tech (English) + General (Bengali) demos |
 
