@@ -62,7 +62,7 @@ This project fully satisfies the requirements:
 ```
 AI-Powered-LinkedIn-Post-Generator/
 ├── 📂 src/                           # Source code
-│   ├── linkedin_post_generator.py    # Main generator class
+│   ├── linkedin_post_generator.py     # Main generator class
 │   └── 📂 agents/                    # AI agents
 │       ├── topic_classifier.py       # Topic classification agent
 │       ├── conditional_router.py     # Intelligent routing logic
@@ -392,8 +392,8 @@ response = generator.generate_post(
 generator = LinkedInPostGenerator(
     model_name="llama3.2:3b",              # Ollama model
     classification_temperature=0.1,        # Consistent classification
-    writing_temperature=0.7,              # Creative content
-    confidence_threshold=0.6,             # Routing confidence
+    writing_temperature=0.7,               # Creative content
+    confidence_threshold=0.6,              # Routing confidence
     default_language="English",            # Default language
     enable_statistics=True                 # Performance tracking
 )
@@ -403,12 +403,12 @@ generator = LinkedInPostGenerator(
 
 ```python
 user_preferences = {
-    "tone": "professional",               # "professional", "casual", "formal"
-    "include_hashtags": True,             # Include relevant hashtags
+    "tone": "professional",                  # "professional", "casual", "formal"
+    "include_hashtags": True,                # Include relevant hashtags
     "target_audience": "tech professionals", # Target audience
     "cultural_context": "Bangladeshi work culture", # Cultural adaptation
-    "post_length": "medium",              # "short", "medium", "long"
-    "engagement_type": "discussion"       # "discussion", "informative", "promotional"
+    "post_length": "medium",                 # "short", "medium", "long"
+    "engagement_type": "discussion"          # "discussion", "informative", "promotional"
 }
 ```
 
