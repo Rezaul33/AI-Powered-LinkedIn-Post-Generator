@@ -1,0 +1,82 @@
+{
+  "total_requests": 4,
+  "successful_generations": 4,
+  "failed_generations": 0,
+  "languages_used": {
+    "Bengali": 2,
+    "English": 2
+  },
+  "topics_processed": [
+    {
+      "topic": "\u0995\u09b0\u09cd\u09ae\u099c\u09c0\u09ac\u09a8\u09c7 \u09ad\u09be\u09b0\u09b8\u09be\u09ae\u09cd\u09af \u09b0\u0995\u09cd\u09b7\u09be \u0995\u09b0\u09be\u09b0 \u0997\u09c1\u09b0\u09c1\u09a4\u09cd\u09ac",
+      "language": "Bengali",
+      "timestamp": "2026-02-02T18:27:38.779831",
+      "success": true
+    },
+    {
+      "topic": "Leadership in Modern Workplace",
+      "language": "English",
+      "timestamp": "2026-02-02T18:27:45.938185",
+      "success": true
+    },
+    {
+      "topic": "\u09b6\u09bf\u0995\u09cd\u09b7\u09be\u09b0 \u0997\u09c1\u09b0\u09c1\u09a4\u09cd\u09ac",
+      "language": "Bengali",
+      "timestamp": "2026-02-02T18:28:06.898312",
+      "success": true
+    },
+    {
+      "topic": "Team Building Strategies",
+      "language": "English",
+      "timestamp": "2026-02-02T18:28:14.013908",
+      "success": true
+    }
+  ],
+  "average_generation_time": 13962.323009967804,
+  "system_start_time": "2026-02-02T18:27:14.962302",
+  "success_rate": 100.0,
+  "failure_rate": 0.0,
+  "router_statistics": {
+    "total_requests": 4,
+    "tech_routes": 0,
+    "general_routes": 4,
+    "low_confidence_routes": 0,
+    "failed_routes": 0,
+    "average_processing_time": 13962.323009967804,
+    "tech_route_percentage": 0.0,
+    "general_route_percentage": 100.0,
+    "low_confidence_percentage": 0.0,
+    "failure_rate": 0.0
+  },
+  "system_info": {
+    "version": "1.0.0",
+    "model_name": "llama3.2:3b",
+    "supported_languages": [
+      "English",
+      "Spanish",
+      "French",
+      "German",
+      "Italian",
+      "Portuguese",
+      "Dutch",
+      "Russian",
+      "Chinese",
+      "Japanese",
+      "Korean",
+      "Arabic",
+      "Hindi",
+      "Bengali",
+      "Tamil",
+      "Telugu",
+      "Marathi",
+      "Gujarati"
+    ],
+    "features": [
+      "Automatic topic classification",
+      "Conditional routing",
+      "Multi-language support",
+      "Performance monitoring",
+      "Batch processing"
+    ]
+  }
+}
